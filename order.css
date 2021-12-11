@@ -1,0 +1,52 @@
+body {
+    margin:0;
+    padding:0;
+    
+    background-color:rgba(236, 110, 26, 0.63);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.header {
+    height:90px; 
+    display:flex; 
+    flex-direction: row; 
+    background-color:rgba(165, 42, 42, 0.527);
+}
+
+.img { 
+    position:absolute; left:5%; 
+    margin-top:-90px;
+ }
+
+ .nav-div {  position: absolute; }
+ .nav-list { display: flex; list-style-type: none; margin-top:-30px; margin-left: 200px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+/*/STILIZIMI I LINKAVE NE HEADER NE GJENDJE NORMALE (PA KLIKIM)/*/
+.nav-list a {
+    float: left;
+    color: white; 
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  /*/STILIZIMI I LINKAVE NE HEADER KUR VENDOSET MOUSE MBI TE/*/
+  .nav-list a:hover {
+    background-color:rgba(105, 100, 99, 0.445);
+    color:white;
+    border-radius:7px;
+    text-decoration: none;
+
+  }
+  .nav-list a:visited {
+    text-decoration: none;
+    color: black;
+  }
+
+   /* LINKU AKTIV NE HEADER*/
+   .nav-list a.active {
+    background-color: rgba(0, 0, 0, 0.555);
+    color: white;
+    border-radius: 7px;
+    text-decoration: none;
+  }
